@@ -43,13 +43,13 @@ tag3{
     font-style: italic;
 }
 tag4{
-    font-style: oblique;
+    font-style:;
 }
 tag5{
-    letter-spacing: 2rem;
+    letter-spacing: 5rem;
 }
 tag6{
-    letter-spacing: -1rem;
+    letter-spacing: -5rem;
 }
 tag7{
     text-transform: uppercase;
