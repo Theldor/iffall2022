@@ -37,7 +37,7 @@ tag1{
 
 }
 tag2{
-    font-style: italic
+    font-weight: bolder;
 }
 tag3{
     font-style: bold
