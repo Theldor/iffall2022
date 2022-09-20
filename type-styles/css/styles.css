@@ -34,16 +34,16 @@ html {
     color: red;
 }
 tag1{
-
+    font-weight: lighter;
 }
 tag2{
     font-weight: bolder;
 }
 tag3{
-    font-style: bold
+    font-style: italic;
 }
 tag4{
-    font-style: ;
+    font-style: oblique;
 }
 tag5{
 
