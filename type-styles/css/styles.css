@@ -1,0 +1,28 @@
+html {
+    color: grey;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Crimson Text', serif;
+    font-size: 15pt;
+  }
+ 
+  body {
+    margin: 10%;
+    
+}
+  h1{
+    color: black;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-indent: -1rem;
+    font-family: vista-slab, serif;
+  }
+
+  p {
+    font-size: 13pt;
+    line-height: 1.4;
+  }
+
+.fas{
+    font-size: 0.8em;
+    color: red;
+}
