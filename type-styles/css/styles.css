@@ -46,8 +46,20 @@ tag4{
     font-style: oblique;
 }
 tag5{
-
+    letter-spacing: 2rem;
 }
 tag6{
-
+    letter-spacing: -1rem;
+}
+tag7{
+    text-transform: uppercase;
+}
+tag8{
+    text-transform: lowercase;
+}
+tag9{
+    text-decoration: dashed;
+}
+tag10{
+    text-decoration: underline;
 }
