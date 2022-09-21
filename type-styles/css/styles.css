@@ -20,8 +20,13 @@ html {
     color: black;
     letter-spacing: -0.02em;
     text-transform: capitalize;
-    
-    
+  }
+
+  h3{
+    color: black;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-indent: -0.5em;
   }
 
   p {
