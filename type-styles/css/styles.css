@@ -20,7 +20,7 @@ html {
     color: black;
     letter-spacing: -0.02em;
     text-transform: capitalize;
-    text-indent: -0.5rem;
+    text-indent: -0.75rem;
     
   }
 
@@ -34,10 +34,10 @@ html {
     color: red;
 }
 tag1{
-    font-weight: lighter;
+    font-weight: 100;
 }
 tag2{
-    font-weight: bolder;
+    font-weight: 900;
 }
 tag3{
     font-style: italic;
