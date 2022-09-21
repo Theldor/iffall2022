@@ -43,7 +43,7 @@ tag3{
     font-style: italic;
 }
 tag4{
-    font-style:;
+    font-style: normal;
 }
 tag5{
     letter-spacing: 2.2rem;
@@ -58,7 +58,7 @@ tag8{
     text-transform: lowercase;
 }
 tag9{
-    text-decoration: 
+    text-decoration: line-through;
 }
 tag10{
     text-decoration: underline;
