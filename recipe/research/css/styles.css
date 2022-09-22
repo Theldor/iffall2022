@@ -30,3 +30,7 @@ html {
   img{
     align-content: center;
   }
+  .marginauto {
+    margin: 1em auto 1em auto;
+    display: block;
+}
