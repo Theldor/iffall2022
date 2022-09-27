@@ -11,6 +11,6 @@ a.see-all{
     text-transform: uppercase;
 }
 
-ul.show{
+ul show:first-chil{
    font-size: 2.5rem;
 }
