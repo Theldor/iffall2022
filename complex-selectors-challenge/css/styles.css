@@ -19,3 +19,8 @@ section > h2 {
   text-transform: uppercase;
   font-size: 1rem;
 }
+
+h1, h2{
+  font-weight: lighter;
+}
+
