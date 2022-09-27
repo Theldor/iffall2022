@@ -14,3 +14,8 @@ a.see-all{
 ul.shows{
    font-size: 2.5rem;
 }
+
+section > h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
