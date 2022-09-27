@@ -24,3 +24,10 @@ h1, h2{
   font-weight: lighter;
 }
 
+img{
+  width: 100%;
+}
+
+section.cast *{
+  width: 25%;
+}
