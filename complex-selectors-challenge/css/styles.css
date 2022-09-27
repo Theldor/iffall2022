@@ -32,7 +32,7 @@ section.cast {
   width: 25%;
 }
 
-.shows::before{
+ul.shows::before{
   border-top: #000000 1px solid;
   content: " ";
   display: block;
