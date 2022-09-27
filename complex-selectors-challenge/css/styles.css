@@ -1,0 +1,16 @@
+header {
+  margin-bottom: 3rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a.see-all{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+ul.show{
+   font-size: 2.5rem;
+}
