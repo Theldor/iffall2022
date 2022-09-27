@@ -40,3 +40,8 @@ ul.shows::before{
   height: 0.5rem;
   background-color: #000000;
 }
+
+.selected{
+  background-color: #000000;
+  font-weight: bold;
+}
