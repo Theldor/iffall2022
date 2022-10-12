@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Using Images</title>
     <link rel="stylesheet" href="https://wudesign.me/resources/using-images/css/styles.css">
+    <link href="css/styles.css" rel="stylesheet"></link>
   </head>
   <body>
     
@@ -17,7 +18,7 @@
 
         <h1>Basic syntax for the <code class="tag">img</code> tag</h1>
 
-        <p>The <code class="tag">img</code> tag is the simplest and most common way to display an image in an html page. <!-- Put the smiley <img> here. --> It requires a <code>src</code> attribute, which indicates where the browser will find the image, and an <code>alt</code> attribute, which provides a textual version of the image for screen-readers.</p>
+        <p>The <code class="tag">img</code> tag is the simplest and most common way to display an image in an html page. <img src="http://wudesign.me/resources/using-images/images/smiley.jpg" alt="smile"><!-- Put the smiley <img> here. --> It requires a <code>src</code> attribute, which indicates where the browser will find the image, and an <code>alt</code> attribute, which provides a textual version of the image for screen-readers.</p>
 
         <samp><code class="tag">img src="path/to/image.jpg" alt="My image"</code></samp>
 
@@ -41,7 +42,7 @@
           <li>The image will be huge. So, add <code>class="full-screen"</code> to the tag, then use that class as the selector for a style rule that sets <code>width: 100%;</code> on the image.</li>
         </ol>
 
-        <!-- Put the shelf-cloud-wide <img> here. -->
+        <!-- Put the shelf-cloud-wide <img> here. --><img src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="size-image" class="full-screen">
 
       </section>
 
@@ -56,7 +57,7 @@
           <li>This time, add <code>class="square"</code> to the tag, and use that class as the selector for a style rule that sets <code>width: 280px; height: 280px;</code> on the image.</li>
         </ol>
 
-        <!-- Put the second shelf-cloud-wide <img> here. -->
+        <!-- Put the second shelf-cloud-wide <img> here. --><img src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="crop-image" class="square">
 
         <p>The image is stretched! Not what we wanted. We need to tell the image to be cropped, not stretched.</p>
 
@@ -249,8 +250,8 @@
 
       
       <figure class="compressed-image">
-        <!-- your <img> here... -->
-        <figcaption><!-- ---px wide, --% jpeg compression, --KB --></figcaption>
+        <!-- your <img> here... --><img src="images/500px-Archaeological_Journal,_Volume_6,_0018.jpg" alt="knight" class="joe">
+        <figcaption>500 x 137px wide, 60% jpeg compression (Photoshop setting 6), 26.1KB</figcaption>
       </figure>
         
 
