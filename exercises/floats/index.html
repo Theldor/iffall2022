@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Floated Elements</title>
     <link rel="stylesheet" href="https://wudesign.me/resources/basic-layout/css/styles.css">
+    <link href="css/styles.css" rel="stylesheet"></link>
   </head>
   <body>
 
@@ -15,7 +16,7 @@
 
         <p><img class="portrait" src="http://wudesign.me/resources/basic-layout/images/portrait.png" alt="portrait placeholder">There is an <code class="tag">img</code> element at the beginning of this paragraph of text. Because <code class="tag">img</code> tags are <em>inline</em> elements by default, it is making the first line of the paragraph very tall. However, css provides a way to make text flow around the image. We do this with the <dfn>float</dfn> property.</p>
 
-        <p>The <code>float</code> property is applied to the element around which we want text to wrap. It may seem a bit counter-intutive, but in your HTML code, the floated element must come <em>before</em> the text that wraps around it, just like this document. We can <code>float: left;</code> or <code>float: right;</code>, but sadly, we cannot <code>float: center;</code></p>
+        <p>The <code>float</code> property is applied to the element around which we want text to wrap. It may seem a bit counter-intutive, but in your HTML code, the floated element must come <em>before</em>  the text that wraps around it, just like this document. We can <code>float: left;</code> or <code>float: right;</code>, but sadly, we cannot <code>float: center;</code></p>
 
         <p>We can use <code>margin</code> on the floated element to control white-space around it, "pushing away" the text that gets too close.</p>
 
@@ -25,7 +26,7 @@
           <li>Set a <code>margin</code> value for the portrait such that it has <code>2rem</code> breathing-room to the right and bottom, but <code>0</code> top and left.</li>
         </ol>
 
-        <p><!-- Put the copied <img> tag here -->Let's duplicate the <code class="tag">img</code> tag above, and place a copy of it at the beginning of this paragraph.</p>
+        <p><img class="portrait" src="http://wudesign.me/resources/basic-layout/images/portrait.png" alt="portrait placeholder">Let's duplicate the <code class="tag">img</code> tag above, and place a copy of it at the beginning of this paragraph.</p>
 
         <ol class="instructions">
           <li>Copy the <code class="tag">img</code> tag as indicated. No need to style &mdash; it will pick up the same styles as the first <code class="tag">img</code> because it has the same class applied.</li>
