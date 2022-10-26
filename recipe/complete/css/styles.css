@@ -1,7 +1,7 @@
 html {
     color: darkgray;
     font-family: 'Crimson Text', serif;
-    font-size: 22pt;
+    /* font-size: 22pt; */
   }
  
   a{
@@ -16,13 +16,136 @@ html {
     color: rgb(119, 119, 119);
   }
 
-  .marginauto {
-    margin: 1em auto 1em auto;
+  #header img{
+    width: 100%;
+  }
+
+  /* div#bg{
+    background-image: url(../images/bg2.jpeg);
+    background-size: cover;
+    background-position: fixed;
+    top: 0;
+    left: 0;
+    background-width: 100%;
+    background-height: auto;
+  } */
+
+  .grid img {
+    width: 90%;
+
+}
+
+.grid {
+    padding: 0;
+}
+
+/* .grid li {
     display: block;
+    width: 25%;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+} */
+
+@media (min-width: 640px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+  h3.headers{
+    text-align: center;
+    text-decoration-line: underline overline;
+    text-underline-offset: 0.5rem;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.wrap{
+  display: flex;
+}
+
+.right{
+  width: 60%;
+  padding: auto;
+}
+
+.left{
+  width: 40%;
+  padding: auto;
+}
+
+@media (max-width: 640px) {
+  .wrap{
+    display: block;
+  }
+  
+  .right{
+    width: 100%;
+    padding: auto;
+    box-sizing: border-box;
+  }
+  
+  .left{
+    width: 100%;
+    padding: auto;
+    box-sizing: border-box;
+  }
+}
+
+.image-float{
+  /* float: right; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  margin-top: 1em;
 }
 
 
-  body {
+
+/* .head-flex ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 0px;
+    font-size: 0.8rem;
+    list-style: none;
+} */
+
+/* div.head-flex ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.head-flex h4{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+ul#head-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+
+    
+
+  /* .marginauto {
+    margin: 1em auto 1em auto;
+    display: block;
+} */
+
+
+body {
     margin: 5%;
     
 }
@@ -33,7 +156,7 @@ html {
     
     
   }
-  h2{
+  /* h2{
     color: black;
     letter-spacing: -0.02em;
     text-transform: capitalize;
@@ -47,5 +170,5 @@ html {
   img{
     align-content: center;
   }
-
+ */
 
