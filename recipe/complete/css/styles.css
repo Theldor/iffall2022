@@ -1,0 +1,51 @@
+html {
+    color: darkgray;
+    font-family: 'Crimson Text', serif;
+    font-size: 22pt;
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  a:visited{
+    color: rgb(119, 119, 119);
+  }
+
+  .marginauto {
+    margin: 1em auto 1em auto;
+    display: block;
+}
+
+
+  body {
+    margin: 5%;
+    
+}
+  h1{
+    color: black;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    
+    
+  }
+  h2{
+    color: black;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+  }
+
+  h3{
+    color: black;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+  }
+  img{
+    align-content: center;
+  }
+
+
