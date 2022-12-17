@@ -11,3 +11,28 @@
     left: 100px;
     top: 50px;
 }
+
+.absolute-example .positioned-element{
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    right: 0;
+}
+
+.absolute-example {
+    position: relative;
+}
+
+.fixed-example .positioned-element{
+    position: fixed;
+    background-color: purple;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.sticky-example .positioned-element{
+    position: sticky;
+    background-color: orange;
+    top: 50px;
+}
