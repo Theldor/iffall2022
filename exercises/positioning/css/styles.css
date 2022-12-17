@@ -1,0 +1,13 @@
+.static-example .positioned-element{
+    position: static;
+    background-color: green;
+    left: 100px;
+
+}
+
+.relative-example .positioned-element{
+    position: relative;
+    background-color: lightblue;
+    left: 100px;
+    top: 50px;
+}
