@@ -10,6 +10,7 @@
     background-color: lightblue;
     left: 100px;
     top: 50px;
+    z-index: -1;
 }
 
 .absolute-example .positioned-element{
@@ -29,6 +30,7 @@
     top: 0px;
     left: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 .sticky-example .positioned-element{
