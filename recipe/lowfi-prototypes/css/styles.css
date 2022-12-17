@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  a:visited{
+    color: rgb(97, 91, 91);
+  }
+  
+  html {
+    color: darkgray;
+    font-family: 'Crimson Text', serif;
+    /* font-size: 22pt; */
+  }
