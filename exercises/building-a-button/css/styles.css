@@ -22,7 +22,6 @@ body{
     font-size: 20px;
     padding: 15px 60px 15px 30px;
     border-radius: 10px;
-    transform: translate(-50%, -20%) scale(0.7);
     transition: transform 0.5s, background-color 0.1s, padding 0.5s, box-shadow 0.1s;
 }
 
@@ -63,7 +62,6 @@ body{
 }
 
 .launch-button:hover .fa-burn{
-    color: #ff6600;
     transform: translate(-50%, -15%) rotate(180deg) scale(0.4);
 }
 
@@ -98,7 +96,7 @@ body{
     to { transform: rotate(7deg); }
   }
 
-  launch-button:active .fa-burn::before {
+  .launch-button:active .fa-burn::before {
     display: block;
     transform-origin: center bottom;
     animation-name: burn; 
