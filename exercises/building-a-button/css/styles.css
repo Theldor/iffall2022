@@ -41,7 +41,7 @@ body{
 .launch-button .rocket{
     position: absolute;
     top: 50%;
-    left: 40px;
+    right: 40px;
     transition: transform 0.5s;
 }
 
@@ -62,7 +62,7 @@ body{
     transition: transform 0.4s;
 }
 
-.launch-button:hover .fa-burn:hover{
+.launch-button:hover .fa-burn{
     color: #ff6600;
     transform: translate(-50%, -15%) rotate(180deg) scale(0.4);
 }
