@@ -1,0 +1,55 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #000;
+}
+
+body{
+    padding-top: 200px;
+}
+
+.launch-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: #aa0000;
+    color: white;
+    font-size: 20px;
+    padding: 15px 60px 15px 30px;
+    border-radius: 10px;
+}
+
+.launch-button:hover{
+    background-color: #cc0000;
+    box-shadow: 0 0 8px #ff0000;
+}
+
+.launch-button:active{
+    background-color: #750000;
+    box-shadow: 0 0 2px #750000;
+}
+
+.launch-button .rocket{
+    position: absolute;
+}
+
+.launch-button .rocket i{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}
+
+.launch-button .fa-rocket{
+    transform: translate(-50%, -50%) rotate(-45deg);
+
+}
+
+.launch-button .fa-burn{
+    transform: translate(-50%, -15%) rotate(180deg);
+    color: orange;
+}
